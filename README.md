@@ -103,9 +103,9 @@ These insights empower stakeholders with key business metrics, enabling strategi
 ```
 data-warehouse-analytics-pipeline/
 │
-├── data_analysis						            # Scripts and notebooks for exploratory data analysis and business insights
+├── data_analysis			            # Scripts and notebooks for exploratory data analysis and business insights
 │
-├── data_warehouse						          # SQL scripts for ETL and transformations
+├── data_warehouse				        #  SQL scripts for ETL and transformations
 │   ├── bronze/                    	    # Scripts for extracting and loading raw data
 │   ├── silver/                       	# Scripts for cleaning and transforming data
 │   ├── gold/                         	# Scripts for creating analytical models
@@ -114,8 +114,8 @@ data-warehouse-analytics-pipeline/
 ├── datasets/                         	# Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                             	# Project documentation and architecture details
-│   ├── data_architecture.drawio     	  # Draw.io file shows the project's architecture
-│   ├── data_architecture.png        	  # Exported image of the overall data architecture diagram
+│   ├── data_architecture.drawio     	# Draw.io file shows the project's architecture
+│   ├── data_architecture.png        	# Exported image of the overall data architecture diagram
 │   ├── data_catalog.md               	# Catalog of datasets, including field descriptions and metadata
 │   ├── data_flow.drawio              	# Draw.io file for the data flow diagram
 │   ├── data_flow.png                 	# Exported image of the data flow diagram
